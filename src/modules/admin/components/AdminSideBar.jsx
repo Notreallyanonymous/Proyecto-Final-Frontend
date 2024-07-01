@@ -18,7 +18,7 @@ function AdminSideBar() {
             <Sidebar.ItemGroup>
                 <Sidebar.Items>
                     <Sidebar.ItemGroup>
-                        <Sidebar.Item href="/admin/welcome" icon={HiHome}>
+                        <Sidebar.Item href="/admin" icon={HiHome}>
                             Inicio
                         </Sidebar.Item>
                         <Sidebar.Item href="/admin/dashboard" icon={HiChartPie}>

@@ -6,7 +6,7 @@ const AdminWelcome = lazy(() => import('../views/AdminWelcome'));
 
 const adminRoutes = [
   {
-    path: "welcome",
+    path: "",
     element: <AdminWelcome />,
     errorElement:
       <Suspense fallback={<TextLoading />}>
