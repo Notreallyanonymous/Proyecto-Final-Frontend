@@ -1,14 +1,16 @@
-import { RouterProvider } from 'react-router-dom';
-import AdminMenu from '../components/AdminMenu'
-import adminRoutes from '../router/router';
+import { Outlet } from 'react-router-dom';
+import AdminSideBar from '../components/AdminSideBar';
 
 const AdminLayout = () => {
     return (
-        <>
-        <AdminMenu/>
-        <RouterProvider router={adminRoutes} />
-        </>
+        <div style={{ display: 'flex' }}>
+            <AdminSideBar />
+
+            <div style={{ padding: '50px', paddingTop: '30px', width: '100%' }}>
+                <Outlet />
+            </div>
+        </div>
     );
 }
- 
+
 export default AdminLayout;

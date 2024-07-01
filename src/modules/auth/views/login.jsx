@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Modal } from "flowbite-react";
 import { Link, useNavigate } from "react-router-dom";
-import Cookies from 'js-cookie';
-import { API_URL } from '../../config';
 
 export default function LoginPage() {
     const [formValues, setFormValues] = useState({

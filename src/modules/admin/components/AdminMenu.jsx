@@ -1,7 +1,7 @@
 
 import { Button, MegaMenu, Navbar } from 'flowbite-react';
 
-const AdminMenu = () => {
+function AdminMenu() {
   return (
     <MegaMenu>
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4 md:space-x-8">
@@ -96,4 +96,4 @@ const AdminMenu = () => {
   );
 }
 
-export default AdminMenu
+export default AdminMenu;
